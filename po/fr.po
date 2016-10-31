@@ -1,0 +1,115 @@
+# French translation for indicator-keylock
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-keylock package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-keylock\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-02-23 13:30-0500\n"
+"PO-Revision-Date: 2011-12-28 22:40+0000\n"
+"Last-Translator: Djiboun <Unknown>\n"
+"Language-Team: French <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-11-22 05:45+0000\n"
+"X-Generator: Launchpad (build 17252)\n"
+
+#: ../src/main.c:184
+msgid "Indicator/Status Icon for keyboard lock keys"
+msgstr ""
+"Icône de notification de l'êtat des touches verrouillables du clavier."
+
+#: ../src/main.c:190
+msgid "Could not initialize X Keyboard Extension."
+msgstr "Impossible d'activer les extensions claviers du moteur graphique."
+
+#: ../src/main.c:212 ../indicator-keylock-prefs.ui.h:2
+msgid "Caps Lock"
+msgstr "Verr. maj."
+
+#: ../src/main.c:219 ../indicator-keylock-prefs.ui.h:3
+msgid "Num Lock"
+msgstr "Verr. Num."
+
+#: ../src/main.c:226 ../indicator-keylock-prefs.ui.h:4
+msgid "Scroll Lock"
+msgstr "Arrêt défilement"
+
+#: ../indicator-keylock.desktop.in.h:1
+msgid "Indicator-LockKeys"
+msgstr "Indicator-LockKeys"
+
+#: ../indicator-keylock.desktop.in.h:2
+msgid "Handles the locked states of CapsLock, NumLock, and ScrollLock"
+msgstr "Gère les états de Verr. maj., Verr. num. et Arrêt Défil."
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:1
+msgid "Lock key to show in the indicator area"
+msgstr "Touche verrouillable à afficher dans la zone de notification"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:2
+msgid ""
+"Lock key to show in the indicator area when using single icon mode 0 for "
+"caps lock, 1 for num lock, 2 for scroll lock"
+msgstr ""
+"Touche verrouillable à afficher dans la zone de notification en mode icône "
+"unique. 0 pour Verr. Maj., 1 pour Verr. Num. et 2 pour Arrêt Défil."
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:3
+msgid "Show \"Quit\" menu item"
+msgstr "Afficher l'option \"Quitter\" dans le menu"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:4
+msgid "Show the menu item for quitting the application"
+msgstr "Affiche l'option de menu pour quitter l'application"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:5
+msgid "Show notifications"
+msgstr "Afficher les notifications"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:6
+msgid "Display notifications through libnotify"
+msgstr "Affiche les notifications via libnotify"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:7
+msgid "Use single icon mode"
+msgstr "Mode icône unique."
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:8
+msgid ""
+"Show a single icon in the indicator applet and display the other icons in "
+"the menu, else show separate indicators for each lock key"
+msgstr ""
+"Affiche un seul icône dans l'applett de notification et affiche les autres "
+"dans un menu, sinon affiche des icônes distinct pour chaque touche."
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:9
+msgid "Show the lock keys when not active"
+msgstr "Affiche les touches verrouillables quand elles ne sont pas activées."
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:10
+msgid ""
+"Show the lock keys when inactive as well as when active Only affects "
+"multiple icon mode"
+msgstr ""
+"Affiche les touches verrouillable active et inactive. Ne concerne que le "
+"mode à plusieurs icône."
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:11
+msgid "Show the indicator(s)"
+msgstr "Afficher le(s) indicateur(s)"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:12
+msgid "Show the lock key(s) in the indicator applet"
+msgstr "Afficher les touches verrouillées dans l’applet de notification"
+
+#: ../indicator-keylock-prefs.ui.h:1
+msgid "Use an application indicator"
+msgstr "Utiliser un indicateur d’une application"
+
+#: ../indicator-keylock-prefs.ui.h:5
+msgid "Show indicator while lock key is inactive"
+msgstr "Afficher l’indicateur quand la touche de verrouillage est inactive"

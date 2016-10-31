@@ -1,0 +1,116 @@
+# Russian translation for indicator-keylock
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-keylock package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-keylock\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-02-23 13:30-0500\n"
+"PO-Revision-Date: 2012-02-03 08:50+0000\n"
+"Last-Translator: Andrei B. Borisov <Unknown>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-11-22 05:45+0000\n"
+"X-Generator: Launchpad (build 17252)\n"
+
+#: ../src/main.c:184
+msgid "Indicator/Status Icon for keyboard lock keys"
+msgstr ""
+"Значок индикации/состояния для клавиш-блокировок состояний клавиатуры"
+
+#: ../src/main.c:190
+msgid "Could not initialize X Keyboard Extension."
+msgstr "Невозможно инициализировать расширение X Keyboard."
+
+#: ../src/main.c:212 ../indicator-keylock-prefs.ui.h:2
+msgid "Caps Lock"
+msgstr "Caps Lock"
+
+#: ../src/main.c:219 ../indicator-keylock-prefs.ui.h:3
+msgid "Num Lock"
+msgstr "Num Lock"
+
+#: ../src/main.c:226 ../indicator-keylock-prefs.ui.h:4
+msgid "Scroll Lock"
+msgstr "Scroll Lock"
+
+#: ../indicator-keylock.desktop.in.h:1
+msgid "Indicator-LockKeys"
+msgstr "Индикатор клавиш-блокировок (CapsLock, NumLock, ScrollLock)"
+
+#: ../indicator-keylock.desktop.in.h:2
+msgid "Handles the locked states of CapsLock, NumLock, and ScrollLock"
+msgstr "Отслеживает состояние нажатия клавиш CapsLock, NumLock, и ScrollLock"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:1
+msgid "Lock key to show in the indicator area"
+msgstr "Отображать в области уведомления клавишу-блокировки"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:2
+msgid ""
+"Lock key to show in the indicator area when using single icon mode 0 for "
+"caps lock, 1 for num lock, 2 for scroll lock"
+msgstr ""
+"Отображать состояние клавиши-блокировки в области уведомления с помощью "
+"одного значка в режиме 0 для CapsLock, 1 для NumLock, 2 для ScrollLock"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:3
+msgid "Show \"Quit\" menu item"
+msgstr "Показать пункт меню \"Выйти\""
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:4
+msgid "Show the menu item for quitting the application"
+msgstr "Показать пункт меню для выхода из приложения"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:5
+msgid "Show notifications"
+msgstr "Показывать уведомления"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:6
+msgid "Display notifications through libnotify"
+msgstr "Показывать уведомления через libnotify"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:7
+msgid "Use single icon mode"
+msgstr "Использоапть режим одного значка"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:8
+msgid ""
+"Show a single icon in the indicator applet and display the other icons in "
+"the menu, else show separate indicators for each lock key"
+msgstr ""
+"Отображать один значок в апплете индикатора, а другие значки в выпадающем "
+"меню, в противном случае отображать разделённые индикаторы для каждой из "
+"клавиш-блокировки"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:9
+msgid "Show the lock keys when not active"
+msgstr "Отображать клавиши-блокировки в неактивном состоянии"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:10
+msgid ""
+"Show the lock keys when inactive as well as when active Only affects "
+"multiple icon mode"
+msgstr ""
+"Отображать клавиши-блокировки в неактивном состоянии, а также когда "
+"задействован режим нескольких значков"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:11
+msgid "Show the indicator(s)"
+msgstr "Отображать индикатор(ы)"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:12
+msgid "Show the lock key(s) in the indicator applet"
+msgstr "Отображать клавишу(ы)-блокировки(ок) в индикаторе апплета"
+
+#: ../indicator-keylock-prefs.ui.h:1
+msgid "Use an application indicator"
+msgstr "Использовать индикатор приложения"
+
+#: ../indicator-keylock-prefs.ui.h:5
+msgid "Show indicator while lock key is inactive"
+msgstr "Отображать индикатор пока клавиша-блокировки неактивна"

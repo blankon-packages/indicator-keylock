@@ -1,0 +1,114 @@
+# Turkish translation for indicator-keylock
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the indicator-keylock package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-keylock\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-02-23 13:30-0500\n"
+"PO-Revision-Date: 2013-03-16 19:21+0000\n"
+"Last-Translator: Volkan Gezer <Unknown>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-11-22 05:45+0000\n"
+"X-Generator: Launchpad (build 17252)\n"
+
+#: ../src/main.c:184
+msgid "Indicator/Status Icon for keyboard lock keys"
+msgstr "Klavye kilitleme tuşları için Gösterici/Durum Simgesi"
+
+#: ../src/main.c:190
+msgid "Could not initialize X Keyboard Extension."
+msgstr "X Klavye Uzantısı başlatılamadı"
+
+#: ../src/main.c:212 ../indicator-keylock-prefs.ui.h:2
+msgid "Caps Lock"
+msgstr "Caps Lock (Büyük Harf Kilidi)"
+
+#: ../src/main.c:219 ../indicator-keylock-prefs.ui.h:3
+msgid "Num Lock"
+msgstr "Num Lock (Sayısal Kilit)"
+
+#: ../src/main.c:226 ../indicator-keylock-prefs.ui.h:4
+msgid "Scroll Lock"
+msgstr "Scroll Lock (Kaydırma Kilidi)"
+
+#: ../indicator-keylock.desktop.in.h:1
+msgid "Indicator-LockKeys"
+msgstr "Indicator-LockKeys"
+
+#: ../indicator-keylock.desktop.in.h:2
+msgid "Handles the locked states of CapsLock, NumLock, and ScrollLock"
+msgstr "CapsLock, NumLock ve ScrollLock kilit durumlarını kontrol eder"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:1
+msgid "Lock key to show in the indicator area"
+msgstr "Bildirici alanında gösterilecek kilit tuşu"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:2
+msgid ""
+"Lock key to show in the indicator area when using single icon mode 0 for "
+"caps lock, 1 for num lock, 2 for scroll lock"
+msgstr ""
+"Tek simge kipi kullanılırken bildiricide gösterilecek kilit tuşu: 0 caps "
+"lock, 1 numlock, 2 scroll lock"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:3
+msgid "Show \"Quit\" menu item"
+msgstr "\"Çık\" menü ögesini göster"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:4
+msgid "Show the menu item for quitting the application"
+msgstr "Uygulamadan çıkma menü ögesini göster"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:5
+msgid "Show notifications"
+msgstr "Bildirimleri göster"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:6
+msgid "Display notifications through libnotify"
+msgstr "Bildirimleri libnotify yoluyla görüntüle"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:7
+msgid "Use single icon mode"
+msgstr "Tek simge kipini kullan"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:8
+msgid ""
+"Show a single icon in the indicator applet and display the other icons in "
+"the menu, else show separate indicators for each lock key"
+msgstr ""
+"Bildirici yardımcısında tek bir simge göster ve diğer simgeleri menüde "
+"görüntüle, diğer durumda her kilit tuşu için ayrı bildirici göster"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:9
+msgid "Show the lock keys when not active"
+msgstr "Kilit tuşlarını etkin olmadıklarında göster"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:10
+msgid ""
+"Show the lock keys when inactive as well as when active Only affects "
+"multiple icon mode"
+msgstr ""
+"Kilit tuşlarını hem etkin hem de etkin olmadıklarında göster. Sadece çoklu "
+"simge kipini etkiler"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:11
+msgid "Show the indicator(s)"
+msgstr "Bildiricileri göster"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:12
+msgid "Show the lock key(s) in the indicator applet"
+msgstr "Kilit tuşlarını bildirici uygulamacığında göster"
+
+#: ../indicator-keylock-prefs.ui.h:1
+msgid "Use an application indicator"
+msgstr "Bir uygulama bildirici kullan"
+
+#: ../indicator-keylock-prefs.ui.h:5
+msgid "Show indicator while lock key is inactive"
+msgstr "Kilit tuşu etkin değilken bildiriciyi göster"

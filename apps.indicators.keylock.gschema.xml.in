@@ -1,0 +1,39 @@
+<schemalist>
+  <enum id="lock-key">
+    <value nick="caps" value="0"/>
+    <value nick="num" value="1"/>
+    <value nick="scroll" value="2"/>
+  </enum>
+  <schema id="apps.indicators.keylock" path="/apps/indicators/keylock/">
+    <key name="key-shown" enum="lock-key">
+      <default>'caps'</default>
+      <_summary>Lock key to show in the indicator area</_summary>
+      <_description>Lock key to show in the indicator area when using single icon mode 0 for caps lock, 1 for num lock, 2 for scroll lock</_description>
+    </key>
+    <key name="show-quit" type="b">
+      <default>false</default>
+      <_summary>Show "Quit" menu item</_summary>
+      <_description>Show the menu item for quitting the application</_description>
+    </key>
+    <key name="notifications" type="b">
+      <default>true</default>
+      <_summary>Show notifications</_summary>
+      <_description>Display notifications through libnotify</_description>
+    </key>
+    <key name="icon-mode" type="b">
+      <default>true</default>
+      <_summary>Use single icon mode</_summary>
+      <_description>Show a single icon in the indicator applet and display the other icons in the menu, else show separate indicators for each lock key</_description>
+    </key>
+    <key name="show-inactive" type="b">
+      <default>false</default>
+      <_summary>Show the lock keys when not active</_summary>
+      <_description>Show the lock keys when inactive as well as when active Only affects multiple icon mode</_description>
+    </key>
+    <key name="use-indicator" type="b">
+      <default>true</default>
+      <_summary>Show the indicator(s)</_summary>
+      <_description>Show the lock key(s) in the indicator applet</_description>
+    </key>
+  </schema>
+</schemalist>

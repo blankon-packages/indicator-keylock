@@ -1,0 +1,9 @@
+[Desktop Entry]
+_Name=Indicator-LockKeys
+_Comment=Handles the locked states of CapsLock, NumLock, and ScrollLock
+Icon=caps-lock-on
+Exec=indicator-keylock
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=GNOME;GTK;Settings;HardwareSettings;

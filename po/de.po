@@ -1,0 +1,117 @@
+# German translation for indicator-keylock
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the indicator-keylock package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-keylock\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-02-23 13:30-0500\n"
+"PO-Revision-Date: 2014-05-12 13:01+0000\n"
+"Last-Translator: Dominik Duda <dominik_duda@hotmail.com>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-11-22 05:45+0000\n"
+"X-Generator: Launchpad (build 17252)\n"
+
+#: ../src/main.c:184
+msgid "Indicator/Status Icon for keyboard lock keys"
+msgstr "Indikator/Status für Feststelltasten"
+
+#: ../src/main.c:190
+msgid "Could not initialize X Keyboard Extension."
+msgstr "X Keyboard Erweiterung konnte nicht geladen werden"
+
+#: ../src/main.c:212 ../indicator-keylock-prefs.ui.h:2
+msgid "Caps Lock"
+msgstr "Feststelltaste"
+
+#: ../src/main.c:219 ../indicator-keylock-prefs.ui.h:3
+msgid "Num Lock"
+msgstr "Num-Feststelltaste"
+
+#: ../src/main.c:226 ../indicator-keylock-prefs.ui.h:4
+msgid "Scroll Lock"
+msgstr "Rollen-Feststelltasten"
+
+#: ../indicator-keylock.desktop.in.h:1
+msgid "Indicator-LockKeys"
+msgstr "Feststelltasten-Anzeige"
+
+#: ../indicator-keylock.desktop.in.h:2
+msgid "Handles the locked states of CapsLock, NumLock, and ScrollLock"
+msgstr ""
+"Verarbeitet den Status der Rollen-Feststelltaste, Num-Feststelltaste und der "
+"Feststelltaste"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:1
+msgid "Lock key to show in the indicator area"
+msgstr ""
+"Feststelltaste welche in der Benachrichtigungsfläche angezeigt werden soll"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:2
+msgid ""
+"Lock key to show in the indicator area when using single icon mode 0 for "
+"caps lock, 1 for num lock, 2 for scroll lock"
+msgstr ""
+"Feststelltaste welche in der Benachrichtigungsfläche, im Einzel-Icon Modus, "
+"angezeigt werden soll"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:3
+msgid "Show \"Quit\" menu item"
+msgstr "Beenden-Menü anzeigen"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:4
+msgid "Show the menu item for quitting the application"
+msgstr "Menüpunkt zum Beenden der Anwendung anzeigen"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:5
+msgid "Show notifications"
+msgstr "Zeige Benachrichtigungen"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:6
+msgid "Display notifications through libnotify"
+msgstr "Benachrichtigungen mit libnotify anzeigen"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:7
+msgid "Use single icon mode"
+msgstr "Einzel-Icon Modus"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:8
+msgid ""
+"Show a single icon in the indicator applet and display the other icons in "
+"the menu, else show separate indicators for each lock key"
+msgstr ""
+"Zweige ein einzelnes Icon im Benachrichtigungs-Applet und zeige die anderen "
+"Icons im Menü an oder zeige seperate Icons für jede Feststelltaste an"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:9
+msgid "Show the lock keys when not active"
+msgstr "Zeige die Feststelltasten an wenn diese nicht aktiv sind"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:10
+msgid ""
+"Show the lock keys when inactive as well as when active Only affects "
+"multiple icon mode"
+msgstr ""
+"Zeige die Feststelltasten an wenn diese nicht aktiv sind auch wenn Aktiviät "
+"nur den Multi-Icon Modus beeinflusst"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:11
+msgid "Show the indicator(s)"
+msgstr "Zeige die Hinweisnachrichten an"
+
+#: ../apps.indicators.keylock.gschema.xml.in.h:12
+msgid "Show the lock key(s) in the indicator applet"
+msgstr "Zeige die Feststelltasten im Anzeigen-Applet an"
+
+#: ../indicator-keylock-prefs.ui.h:1
+msgid "Use an application indicator"
+msgstr "Anwendungsindikator verwenden"
+
+#: ../indicator-keylock-prefs.ui.h:5
+msgid "Show indicator while lock key is inactive"
+msgstr "Zeige eine Benachrichtigung wärend eine Feststelltaste inaktiv ist"

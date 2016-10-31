@@ -1,0 +1,4 @@
+src/main.c
+indicator-keylock.desktop.in
+apps.indicators.keylock.gschema.xml.in
+[type: gettext/glade]indicator-keylock-prefs.ui

@@ -1,0 +1,24 @@
+Source: indicator-keylock
+Section: gnome
+Priority: extra
+Maintainer: BlankOn Developers <BlankOn-Dev@googlegroups.com>
+XSBC-Original-Maintainer: T. Scott Barnes <tsbarnes@tsbarnes.com>
+Build-Depends: debhelper (>= 9),
+               dh-autoreconf,
+               intltool,
+               libglib2.0-dev,
+               libgtk-3-dev,
+               libunique-3.0-dev,
+               libappindicator3-dev,
+               libnotify-dev
+Standards-Version: 3.9.5
+Vcs-Browser: https://bazaar.launchpad.net/~tsbarnes/indicator-keylock/trunk/files
+Vcs-Bzr: lp:indicator-keylock
+Homepage: http://launchpad.net/indicator-keylock
+
+Package: indicator-keylock
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Indicator for Lock Keys
+ An appindicator for showing the status of the keyboard lock keys,
+ including Caps Lock, Num Lock and Scroll Lock.
